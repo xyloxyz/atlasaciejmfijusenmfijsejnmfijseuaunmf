@@ -1,0 +1,746 @@
+{
+  "_info": {
+    "label": "Deutsch",
+    "name": "de",
+    "flag": "DE"
+  },
+  "moneyUnit": "€",
+  "header": {
+    "ranks": {
+      "admin": "Administrator",
+      "user": "Benutzer"
+    },
+    "user": {
+      "logout": "Abmelden"
+    }
+  },
+  "navbar": {
+    "dashboard": "Dashboard",
+    "products": "Produkte",
+    "keys": "Schlüssel",
+    "shop": "Shop",
+    "overview": "Übersicht",
+    "banlist": "Sperrliste",
+    "playerlist": "Spielerliste",
+    "anticheatlogs": "Anti-Cheat-Protokolle",
+    "config": "Konfiguration",
+    "update": "Aktualisieren",
+    "settings": "Einstellungen",
+    "users": "Benutzer",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutzrichtlinie",
+    "refund": "Rückerstattungsrichtlinie",
+    "Customer": "Kundensystem",
+    "changelog": "Änderungsprotokoll",
+    "browseConfigs": "Configs durchsuchen",
+    "subUserManager": "Sub-Benutzer-Manager",
+    "accountSettings": "Kontoeinstellungen",
+    "adminDashboard": "Admin Dashboard",
+    "userAdmin": "Benutzerverwaltung",
+    "ticketManagement": "Ticket-Verwaltung",
+    "supportTickets": "Support-Tickets",
+    "supportInfo": "Support & Info",
+    "legalPolicies": "Rechtliches & Richtlinien",
+    "userManagement": "Benutzerverwaltung",
+    "adminPanel": "Administratorbereich",
+    "selectProduct": "Produkt auswählen...",
+    "categories": {
+      "main": "Hauptbereich",
+      "customer": "Kundenbereich",
+      "admin": "Administratorbereich",
+      "owner": "Besitzerbereich",
+      "support": "Support"
+    }
+  },
+  "login": {
+    "title": "Bitte melde dich an!", 
+    "description": "Mit der Anmeldung akzeptierst du automatisch die erforderlichen Cookies.",
+    "button": "Über Discord anmelden",
+    "loginButton": "Anmelden",
+    "registerButton": "Registrieren",
+    "emailPlaceholder": "E-Mail oder Benutzername",
+    "passwordPlaceholder": "Passwort",
+    "usernamePlaceholder": "Benutzername",
+    "emailInputPlaceholder": "E-Mail",
+    "confirmPasswordPlaceholder": "Passwort bestätigen",
+    "continueWithDiscord": "Mit Discord fortfahren",
+    "orDivider": "ODER",
+    "invalidCredentials": "Ungültige E-Mail/Benutzername oder Passwort",
+    "registrationError": "Bitte überprüfe deine Eingaben und versuche es erneut",
+    "errorOccurred": "Ein Fehler ist aufgetreten. Bitte versuche es erneut.",
+    "passwordsDoNotMatch": "Passwörter stimmen nicht überein",
+    "registrationSuccessful": "Registrierung erfolgreich! Bitte melde dich an.",
+    "registrationFailed": "Registrierung fehlgeschlagen"
+  },
+  "welcome": "Willkommen zurück, @%s!",
+  "pages": {
+    "dashboard": {
+      "title": "Dashboard",
+      "products": "Deine Produkte",
+      "redeemButton": "Schlüssel einlösen",
+      "latestNews": "Neueste Nachrichten",
+      "fiveMPort": "FiveM Port",
+      "stats": {
+        "users": "Benutzer (insgesamt)",
+        "bans": "Sperren (insgesamt)",
+        "auths": "Authentifizierungen (insgesamt)",
+        "logins": "Anmeldungen (insgesamt)", 
+        "joins": "Beitritte (insgesamt)",
+        "screens": "Screenshots (insgesamt)"
+      },
+      "userstats": {
+        "unban": "Entsperrungen (von dir)",
+        "bans": "Sperren (von dir)",
+        "auths": "Authentifizierungen (von dir)",
+        "logins": "Anmeldungen (von dir)",
+        "joins": "Beitritte (von dir)",
+        "screens": "Screenshots (von dir)"
+      }
+    },
+    "products": {
+      "title": "Produktübersicht",
+      "products": "Produkte",
+      "create": "Produkt erstellen"
+    },
+    "keys": {
+      "title": "Schlüsselübersicht",
+      "create": "Schlüssel erstellen",
+      "keys": "Produktschlüssel"
+    },
+    "bans": {
+      "title": "Sperrliste",
+      "pagetitle": "Sperrlistenübersicht"
+    },
+    "player": {
+      "title": "Spielerliste",
+      "pagetitle": "Spielerlistenübersicht"
+    },
+    "aclogs": {
+      "title": "Anti-Cheat-Protokolle",
+      "pagetitle": "Übersicht der Anti-Cheat-Protokolle"
+    },
+    "shop": {
+      "title": "Anticheat Shop",
+      "description": "Verbessere deinen Schutz und deine Erfahrung mit unseren Premium-Lösungen. Wähle den perfekten Plan für deine Bedürfnisse.",
+      "products": {
+        "oneMonth": {
+          "title": "1 Monat Lizenz",
+          "price": "$9.99",
+          "duration": "/ Monat"
+        },
+        "threeMonths": {
+          "title": "3 Monate Lizenz",
+          "price": "$24.99", 
+          "duration": "/ Quartal",
+          "tag": "Am beliebtesten"
+        },
+        "lifetime": {
+          "title": "Lebenslange Lizenz",
+          "price": "$79.99",
+          "duration": "einmalig"
+        }
+      },
+      "features": {
+        "allFeatures": "Zugang zu allen Funktionen",
+        "premiumSupport": "Premium-Support",
+        "regularUpdates": "Regelmäßige Updates",
+        "lifetimeUpdates": "Lebenslange Updates",
+        "discordRole": "Discord-Rolle",
+        "fullDocumentation": "Vollständige Dokumentation", 
+        "priorityQueue": "Prioritäts-Warteschlange",
+        "earlyAccess": "Früher Zugang zu neuen Funktionen"
+      },
+      "purchaseButton": "Jetzt kaufen"
+    }
+  },
+  "tables": {
+    "products": {
+      "id": "#",
+      "name": "Name",
+      "version": "Version",
+      "price": "Preis",
+      "ip": "IP",
+      "testIp": "Test-IP",
+      "expiry": "Ablaufdatum",
+      "keyy": "Schlüssel",
+      "typ": "Info",
+      "creation": "Erstellungsdatum",
+      "actions": "Aktionen"
+    },
+    "keys": {
+      "id": "#",
+      "key": "Schlüssel",
+      "product": "Produkt",
+      "expires": "Läuft ab in",
+      "creation": "Erstellungsdatum",
+      "actions": "Aktionen"
+    },
+    "bans": {
+      "id": "ID",
+      "name": "Name",
+      "discord": "Discord",
+      "reason": "Grund",
+      "date": "Datum",
+      "actions": "Aktionen"
+    },
+    "player": {
+      "id": "ID",
+      "name": "Name",
+      "ping": "Latenz",
+      "license": "Lizenz",
+      "actions": "Aktionen",
+      "for": "Details für"
+    },
+    "aclogs": {
+      "id": "ID",
+      "date": "Datum",
+      "reason": "Grund"
+    }
+  },
+  "modals": {
+    "redeem": {
+      "title": "Anti-Cheat-Schlüssel einlösen",
+      "button": "Einlösen"
+    },
+    "userProduct": {
+      "title": "Anti-Cheat verwalten",
+      "ip": "IP",
+      "testIp": "Test-IP",
+      "info": "Bei Fragen stehen wir dir jederzeit auf unserem Discord zur Verfügung.",
+      "button": "Speichern"
+    },
+    "deleteProduct": {
+      "title": "Produkt löschen",
+      "description": "Mit dem Löschen des Produkts werden alle Lizenzen und Schlüssel gelöscht! Dies kann nicht rückgängig gemacht werden!",
+      "button": "%s mit %s Lizenzen & %s Schlüsseln löschen"
+    },
+    "createProduct": {
+      "title": "Produkt erstellen",
+      "name": "Name",
+      "price": "Preis",
+      "button": "Erstellen"
+    },
+    "createKey": {
+      "expires": "Läuft ab in (Tagen)",
+      "amount": "Anzahl",
+      "create": "Erstellen"
+    },
+    "unbanUser": {
+      "title": "Spieler entsperren",
+      "description": "Möchtest du %s wirklich entsperren?",
+      "button": "Spieler entsperren"
+    },
+    "screenshot": {
+      "description": "Screenshot für",
+      "button": "Schließen"
+    },
+    "kick": {
+      "kick": "Spieler kicken",
+      "description": "Bist du sicher, dass du %s kicken möchtest?",
+      "reason": "Grund für den Kick",
+      "button": "Kicken"
+    },
+    "ban": {
+      "ban": "Spieler sperren",
+      "description": "Bist du sicher, dass du %s sperren möchtest?", 
+      "reason": "Grund für die Sperre",
+      "button": "Sperren"
+    },
+    "clearAll": {
+      "title": "Alle Daten löschen",
+      "description": "Möchtest du wirklich alle Daten löschen? Dies kann nicht rückgängig gemacht werden.",
+      "button": "Alle löschen"
+    },
+    "clearProps": {
+      "title": "Eigenschaften löschen",
+      "description": "Möchtest du wirklich alle Eigenschaften löschen? Dies kann nicht rückgängig gemacht werden.",
+      "button": "Eigenschaften löschen"
+    },
+    "clearVehicles": {
+      "title": "Fahrzeuge löschen",
+      "description": "Möchtest du wirklich alle Fahrzeuge löschen? Dies kann nicht rückgängig gemacht werden.",
+      "button": "Fahrzeuge löschen"
+    },
+    "clearPeds": {
+      "title": "Peds löschen",
+      "description": "Möchtest du wirklich alle Peds löschen? Dies kann nicht rückgängig gemacht werden.",
+      "button": "Peds löschen"
+    },
+    "restart": {
+      "title": "Server neustarten",
+      "description": "Möchtest du wirklich den Server neustarten? Dies kann nicht rückgängig gemacht werden.",
+      "button": "Jetzt neustarten"
+    }
+  },
+  "settings": {
+    "title": "Benutzereinstellungen",
+    "email": {
+      "title": "E-Mail-Adresse ändern",
+      "current": "Aktuelle E-Mail-Adresse",
+      "new": "Neue E-Mail-Adresse",
+      "newPlaceholder": "neue@email.com",
+      "confirmPassword": "Aktuelles Passwort bestätigen",
+      "passwordPlaceholder": "Ihr aktuelles Passwort",
+      "updateButton": "E-Mail aktualisieren"
+    },
+    "password": {
+      "title": "Passwort ändern",
+      "current": "Aktuelles Passwort",
+      "currentPlaceholder": "Ihr aktuelles Passwort",
+      "new": "Neues Passwort",
+      "newPlaceholder": "Mindestens 8 Zeichen",
+      "confirm": "Passwort bestätigen",
+      "confirmPlaceholder": "Neues Passwort wiederholen",
+      "updateButton": "Passwort aktualisieren"
+    },
+    "discord": {
+      "title": "Discord Integration",
+      "connected": "Verbunden: ",
+      "connectedDescription": "Ihr Discord-Account ist erfolgreich verbunden. Sie können die Verbindung jederzeit trennen.",
+      "notConnected": "Nicht verbunden",
+      "notConnectedDescription": "Verbinden Sie Ihren Discord-Account für zusätzliche Features. Sie finden Ihre Discord-ID in den Benutzereinstellungen unter \"Erweitert\".",
+      "idLabel": "Discord-ID",
+      "idPlaceholder": "z.B. 123456789012345678",
+      "idHelp": "Discord-IDs bestehen aus 17-19 Ziffern",
+      "connectButton": "Discord verbinden",
+      "updateButton": "Discord-ID aktualisieren",
+      "disconnectButton": "Discord trennen",
+      "disconnectConfirm": "Möchten Sie wirklich die Discord-Verbindung trennen?"
+    },
+    "dangerZone": {
+      "title": "Gefahrenzone",
+      "deleteTitle": "Account löschen",
+      "deleteWarning": "Diese Aktion kann nicht rückgängig gemacht werden. Alle Ihre Daten, Produkte und Einstellungen werden dauerhaft gelöscht.",
+      "deletePasswordLabel": "Passwort bestätigen",
+      "deletePasswordPlaceholder": "Ihr aktuelles Passwort",
+      "deleteConfirmLabel": "Geben Sie \"LÖSCHEN\" ein, um zu bestätigen",
+      "deleteConfirmPlaceholder": "LÖSCHEN",
+      "deleteButton": "Account dauerhaft löschen",
+      "deleteConfirmDialog": "LETZTE WARNUNG: Sind Sie sich absolut sicher? Diese Aktion kann NICHT rückgängig gemacht werden!"
+    },
+    "alerts": {
+      "emailUpdateSuccess": "E-Mail-Adresse erfolgreich aktualisiert",
+      "passwordUpdateSuccess": "Passwort erfolgreich aktualisiert",
+      "discordConnectSuccess": "Discord erfolgreich verbunden",
+      "discordDisconnectSuccess": "Discord-Verbindung erfolgreich getrennt",
+      "accountDeleteSuccess": "Account erfolgreich gelöscht",
+      "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "language": {
+      "title": "Sprache",
+      "current": "Aktuelle Sprache",
+      "select": "Sprache auswählen",
+      "german": "Deutsch",
+      "english": "English",
+      "changeButton": "Sprache ändern"
+    }
+  },
+  "alert": {
+    "copy": "Kopieren",
+    "close": "Schließen",
+    "success": "Erfolgreich!",
+    "error": "Ein Fehler ist aufgetreten!",
+    "messages": {
+      "invalidIp": "Die IP-Adresse ist ungültig!",
+      "invalidProduct": "Das angeforderte Produkt existiert nicht oder gehört nicht dir.",
+      "expiredProduct": "Dieses Produkt ist abgelaufen.",
+      "keyInvalid": "Der Schlüssel existiert nicht.",
+      "keyUsed": "Der Schlüssel wurde bereits eingelöst.",
+      "keyRedeemed": "Der Schlüssel wurde erfolgreich eingelöst.",
+      "productUpdated": "Die IP-Adresse oder der Port wurde erfolgreich aktualisiert.",
+      "productNotFound": "Das Produkt wurde nicht gefunden.",
+      "successfully": "Erfolgreich",
+      "userIdNotFound": "Benutzer-ID nicht gefunden",
+      "noUserIdInSession": "Keine Benutzer-ID in der Sitzung",
+      "licenseNotFound": "Lizenz nicht gefunden",
+      "noLicenseFound": "Keine Lizenz gefunden",
+      "unknownType": "Unbekannter Typ",
+      "invalid": "Ungültig",
+      "internalServerError": "Interner Serverfehler",
+      "errorOccurredProcessing": "Ein Fehler ist bei der Verarbeitung deiner Anfrage aufgetreten",
+      "falseId": "Falsche ID",
+      "idNotFoundContactSupport": "ID nicht gefunden. Versuche es erneut oder kontaktiere den Support",
+      "notFound": "Nicht gefunden",
+      "noBanFoundWithId": "Keine Sperre mit dieser ID gefunden",
+      "playerUnbannedSuccessfully": "Spieler wurde erfolgreich entsperrt",
+      "error2": "Fehler 2",
+      "productNameInvalid": "Produktname ist ungültig",
+      "noOwnershipDownload": "Du besitzt das Produkt %s nicht und kannst es nicht herunterladen.",
+      "fileNotFound": "Die Datei für %s wurde nicht gefunden.",
+      "userOrLocaleMissing": "Benutzer oder Sprache fehlt",
+      "tooManyRequests": "Zu viele Anfragen von dieser IP, bitte versuche es später erneut.",
+      "missingRequiredParameters": "Erforderliche Parameter fehlen",
+      "actionAndPlayerIdRequired": "Aktion und Spieler-ID sind erforderlich",
+      "noKeyFound": "Kein Schlüssel gefunden",
+      "invalidKeyFormat": "Ungültiges Schlüsselformat",
+      "playerKickedSuccessfully": "Spieler wurde erfolgreich gekickt",
+      "playerBannedSuccessfully": "Spieler wurde erfolgreich gesperrt",
+      "playerWarnedSuccessfully": "Spieler wurde erfolgreich verwarnt",
+      "invalidAction": "Ungültige Aktion",
+      "errorOccurred": "Ein Fehler ist aufgetreten",
+      "productSuccessfullyCreated": "Produkt erfolgreich erstellt",
+      "productCouldNotBeCreated": "Produkt konnte nicht erstellt werden",
+      "productSuccessfullyDeleted": "Produkt erfolgreich gelöscht",
+      "productDoesNotExist": "Das Produkt existiert nicht.",
+      "keysCreatedSuccessfully": "%s Schlüssel wurden erstellt. Du kannst sie jetzt kopieren.",
+      "keyDeleted": "Der Schlüssel wurde gelöscht.",
+      "userNotFound": "Benutzer nicht gefunden",
+      "currentPasswordIncorrect": "Aktuelles Passwort ist falsch",
+      "emailAlreadyInUse": "Diese E-Mail-Adresse wird bereits verwendet",
+      "emailUpdatedSuccessfully": "E-Mail-Adresse erfolgreich aktualisiert",
+      "errorUpdatingEmail": "Fehler beim Aktualisieren der E-Mail-Adresse",
+      "newPasswordsDontMatch": "Neue Passwörter stimmen nicht überein",
+      "passwordMustBe8Characters": "Neues Passwort muss mindestens 8 Zeichen lang sein",
+      "passwordUpdatedSuccessfully": "Passwort erfolgreich aktualisiert",
+      "errorUpdatingPassword": "Fehler beim Aktualisieren des Passworts",
+      "invalidDiscordId": "Ungültige Discord-ID. Discord-IDs bestehen aus 17-19 Ziffern.",
+      "discordIdAlreadyConnected": "Diese Discord-ID ist bereits mit einem anderen Account verbunden",
+      "discordIdConnectedSuccessfully": "Discord-ID erfolgreich verbunden",
+      "errorConnectingDiscord": "Fehler beim Verbinden der Discord-ID",
+      "discordIdDisconnectedSuccessfully": "Discord-ID erfolgreich getrennt",
+      "errorDisconnectingDiscord": "Fehler beim Trennen der Discord-ID",
+      "passwordIncorrect": "Passwort ist falsch",
+      "pleaseTypeDeleteToConfirm": "Bitte geben Sie \"LÖSCHEN\" zur Bestätigung ein",
+      "adminOwnerAccountsCannotBeDeleted": "Admin- und Owner-Accounts können nicht gelöscht werden",
+      "accountDeletedSuccessfully": "Account erfolgreich gelöscht",
+      "errorDeletingAccount": "Fehler beim Löschen des Accounts",
+      "errorLoadingNews": "Fehler beim Laden der Nachrichten",
+      "newsCreatedSuccessfully": "Nachricht erfolgreich erstellt!",
+      "titleAndSummaryRequired": "Titel und Zusammenfassung sind erforderlich",
+      "errorCreatingNews": "Fehler beim Erstellen der Nachricht",
+      "newsUpdatedSuccessfully": "Nachricht erfolgreich aktualisiert!",
+      "idTitleSummaryRequired": "ID, Titel und Zusammenfassung sind erforderlich",
+      "errorUpdatingNews": "Fehler beim Aktualisieren der Nachricht",
+      "newsDeletedSuccessfully": "Nachricht erfolgreich gelöscht!",
+      "newsIdRequired": "Nachrichten-ID ist erforderlich",
+      "errorDeletingNews": "Fehler beim Löschen der Nachricht",
+      "newsToggledSuccessfully": "Nachrichtenstatus erfolgreich geändert!",
+      "errorTogglingNews": "Fehler beim Ändern des Nachrichtenstatus"
+    }
+  },
+  "common": {
+    "userIdNotFound": "Benutzer-ID nicht gefunden",
+    "licenseNotFound": "Lizenz nicht gefunden",
+    "noData": "Keine Daten verfügbar",
+    "noPlayer": "Keine Spieler gefunden",
+    "expired": "Abgelaufen",
+    "expiredLicense": "Schlüssel abgelaufen",
+    "unset": "Nicht gesetzt",
+    "manage": "Verwalten",
+    "delete": "Löschen",
+    "unban": "Entsperren",
+    "screen": "Screenshot",
+    "product": "Produkt",
+    "download": "Herunterladen",
+    "loading": "Lädt...",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "yes": "Ja",
+    "no": "Nein",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "overview": {
+    "title": "Übersicht",
+    "developmentTitle": "Entwicklungsstatus",
+    "serverManagement": {
+      "title": "Server-Verwaltung",
+      "clearAll": "Alles löschen",
+      "clearProps": "Props löschen",
+      "clearVehicles": "Fahrzeuge löschen", 
+      "clearPeds": "Peds löschen",
+      "restartServer": "Server neustarten",
+      "cancel": "Abbrechen"
+    }
+  },
+  "policies": {
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "acceptance": {
+        "title": "1. Annahme der Bedingungen",
+        "content": "Durch den Zugriff auf und die Nutzung dieses Dienstes akzeptieren Sie die Bedingungen und Bestimmungen dieser Vereinbarung und stimmen zu, daran gebunden zu sein."
+      },
+      "license": {
+        "title": "2. Nutzungslizenz",
+        "intro": "Es wird die Erlaubnis erteilt, vorübergehend eine Kopie der Materialien (Informationen oder Software) für den persönlichen, nicht-kommerziellen, vorübergehenden Gebrauch herunterzuladen.",
+        "grant": "Dies ist die Gewährung einer Lizenz, nicht die Übertragung von Eigentumsrechten, und unter dieser Lizenz dürfen Sie nicht:",
+        "restrictions": {
+          "modify": "die Materialien modifizieren oder kopieren;",
+          "commercial": "die Materialien für kommerzielle Zwecke verwenden;",
+          "reverse": "versuchen, Software, die im Service enthalten ist, zu dekompilieren oder rückzuentwickeln;",
+          "copyright": "Urheberrechts- oder andere Eigentumshinweise von den Materialien entfernen;"
+        }
+      },
+      "disclaimer": {
+        "title": "3. Haftungsausschluss",
+        "content": "Die Materialien in diesem Service werden auf 'wie besehen' Basis bereitgestellt. Wir übernehmen keine Gewährleistungen, weder ausdrücklich noch stillschweigend, und lehnen hiermit alle anderen Gewährleistungen ab, einschließlich, aber nicht beschränkt auf, stillschweigende Gewährleistungen oder Bedingungen der Marktgängigkeit, Eignung für einen bestimmten Zweck oder Nichtverletzung geistigen Eigentums oder andere Rechtsverletzungen."
+      },
+      "limitations": {
+        "title": "4. Beschränkungen",
+        "content": "In keinem Fall haften wir oder unsere Lieferanten für Schäden (einschließlich, aber nicht beschränkt auf, Schäden durch Datenverlust oder entgangenen Gewinn oder aufgrund von Geschäftsunterbrechungen), die aus der Nutzung oder der Unfähigkeit zur Nutzung der Materialien unseres Services entstehen, auch wenn wir oder ein autorisierter Vertreter mündlich oder schriftlich über die Möglichkeit solcher Schäden informiert wurden."
+      }
+    },
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "intro": {
+        "title": "Einführung",
+        "content": "Diese Datenschutzrichtlinie beschreibt, wie wir Informationen über Sie sammeln, verwenden und teilen, wenn Sie unseren Service nutzen."
+      },
+      "collection": {
+        "title": "Informationen, die wir sammeln",
+        "content": "Wir sammeln Informationen, die Sie uns direkt zur Verfügung stellen, z.B. wenn Sie ein Konto erstellen, einen Kauf tätigen oder uns für Support kontaktieren."
+      },
+      "usage": {
+        "title": "Wie wir Ihre Informationen verwenden",
+        "content": "Wir verwenden die gesammelten Informationen, um unsere Services bereitzustellen, zu warten und zu verbessern, Transaktionen zu bearbeiten und mit Ihnen zu kommunizieren."
+      },
+      "sharing": {
+        "title": "Informationsaustausch",
+        "content": "Wir verkaufen, handeln oder übertragen Ihre persönlichen Informationen nicht an Dritte ohne Ihre Zustimmung, außer wie in dieser Richtlinie beschrieben."
+      },
+      "security": {
+        "title": "Datensicherheit",
+        "content": "Wir implementieren angemessene Sicherheitsmaßnahmen, um Ihre persönlichen Informationen vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen."
+      }
+    },
+    "refund": {
+      "title": "Rückerstattungsrichtlinie",
+      "general": {
+        "title": "Allgemeine Richtlinie",
+        "content": "Wir bieten Rückerstattungen unter bestimmten Bedingungen an, wie unten beschrieben. Bitte lesen Sie diese Richtlinie sorgfältig, bevor Sie einen Kauf tätigen."
+      },
+      "conditions": {
+        "title": "Rückerstattungsbedingungen",
+        "content": "Rückerstattungen können innerhalb von 14 Tagen nach dem Kauf beantragt werden, wenn der Service nicht wie beschrieben funktioniert oder wenn technische Probleme die ordnungsgemäße Nutzung verhindern."
+      },
+      "process": {
+        "title": "Rückerstattungsverfahren",
+        "content": "Um eine Rückerstattung zu beantragen, kontaktieren Sie bitte unser Support-Team mit Ihren Bestelldetails und dem Grund für den Rückerstattungsantrag. Wir prüfen jeden Fall individuell."
+      },
+      "exceptions": {
+        "title": "Ausnahmen",
+        "content": "Rückerstattungen sind nicht verfügbar für digitale Produkte, die erfolgreich geliefert wurden und wie beabsichtigt funktionieren."
+      }
+    }
+  },
+  "landing": {
+    "title": "Anticheat Panel - Sicheres Gaming für alle",
+    "description": "Professionelles Anticheat Panel für sichere Gaming-Server. Schutz vor Cheats, Hacks und unerwünschtem Verhalten.",
+    "nav": {
+      "brand": "Anticheat Panel",
+      "home": "Startseite",
+      "features": "Features",
+      "pricing": "Preise",
+      "contact": "Kontakt",
+      "login": "Anmelden",
+      "dashboard": "Dashboard"
+    },
+    "hero": {
+      "title": "Sicheres Gaming",
+      "subtitle": "für alle",
+      "description": "Professioneller Anti-Cheat-Schutz für deine Gaming-Server. Erkenne und verhindere Cheating, Hacking und unerwünschtes Verhalten mit unserem fortschrittlichen Überwachungssystem.",
+      "getStarted": "Jetzt starten",
+      "learnMore": "Mehr erfahren",
+      "watchDemo": "Demo ansehen"
+    },
+    "stats": {
+      "users": "Aktive Benutzer",
+      "bans": "Cheater gesperrt",
+      "authentications": "Authentifizierungen",
+      "servers": "Geschützte Server"
+    },
+    "features": {
+      "title": "Warum unser Anticheat wählen?",
+      "subtitle": "Erweiterte Schutzfunktionen für modernes Gaming",
+      "realtime": {
+        "title": "Echtzeit-Erkennung",
+        "description": "Sofortige Erkennung und Verhinderung von Cheat-Versuchen mit minimalen Fehlalarmen."
+      },
+      "dashboard": {
+        "title": "Erweiterte Übersicht",
+        "description": "Umfassendes Kontrollpanel mit detaillierten Analysen und Überwachungstools."
+      },
+      "api": {
+        "title": "API-Integration",
+        "description": "Einfache Integration in bestehende Server-Infrastruktur über unsere REST-API."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Rund um die Uhr technischer Support von unserem erfahrenen Team."
+      },
+      "updates": {
+        "title": "Regelmäßige Updates",
+        "description": "Kontinuierliche Verbesserungen und neue Features um neuen Bedrohungen voraus zu sein."
+      },
+      "customizable": {
+        "title": "Vollständig anpassbar",
+        "description": "Flexible Konfigurationsoptionen für deine spezifischen Server-Anforderungen."
+      }
+    },
+    "howItWorks": {
+      "title": "Wie es funktioniert",
+      "subtitle": "Einfacher Einrichtungsprozess in wenigen Schritten",
+      "step1": {
+        "title": "Account erstellen",
+        "description": "Registriere dich kostenlos und erhalte sofortigen Zugang zu deinem Dashboard."
+      },
+      "step2": {
+        "title": "Einstellungen konfigurieren",
+        "description": "Passe die Schutzeinstellungen an die Bedürfnisse deines Servers an."
+      },
+      "step3": {
+        "title": "Schutz bereitstellen",
+        "description": "Installiere unseren leichtgewichtigen Client und beginne deinen Server zu schützen."
+      }
+    },
+    "pricing": {
+      "title": "Wähle deinen Plan",
+      "subtitle": "Flexible Preisoptionen für Server aller Größen",
+      "monthly": "Monatlich",
+      "annually": "Jährlich",
+      "save": "20% sparen"
+    },
+    "testimonials": {
+      "title": "Was unsere Nutzer sagen",
+      "subtitle": "Vertraut von Gaming-Communities weltweit"
+    },
+    "cta": {
+      "title": "Bereit, deinen Server zu sichern?",
+      "subtitle": "Schließe dich tausenden von Server-Besitzern an, die unserer Anticheat-Lösung vertrauen",
+      "button": "Heute starten"
+    },
+    "footer": {
+      "description": "Professionelle Anticheat-Lösung für sichere Gaming-Server weltweit.",
+      "quickLinks": "Schnellzugriff",
+      "legal": "Rechtliches",
+      "contact": "Kontakt",
+      "followUs": "Folge uns",
+      "rights": "Alle Rechte vorbehalten.",
+      "builtWith": "Mit ❤️ für die Gaming-Community entwickelt"
+    }
+  },
+  "tickets": {
+    "title": "Support-Tickets",
+    "myTickets": "Meine Tickets",
+    "createTicket": "Ticket erstellen",
+    "ticketNotFound": "Ticket nicht gefunden",
+    "noPermission": "Keine Berechtigung für dieses Ticket",
+    "errorLoadingTickets": "Fehler beim Laden der Tickets",
+    "errorLoadingPage": "Fehler beim Laden der Seite",
+    "newTicket": "Neues Ticket",
+    "ticketDetails": "Ticket-Details",
+    "messages": "Nachrichten",
+    "addMessage": "Nachricht hinzufügen",
+    "attachments": "Anhänge",
+    "status": {
+      "open": "Offen",
+      "inProgress": "In Bearbeitung",
+      "waitingCustomer": "Wartet auf Kunden",
+      "closed": "Geschlossen",
+      "resolved": "Gelöst"
+    },
+    "priority": {
+      "low": "Niedrig",
+      "medium": "Mittel",
+      "high": "Hoch",
+      "urgent": "Dringend"
+    },
+    "filters": {
+      "all": "Alle",
+      "search": "Tickets durchsuchen...",
+      "filterByStatus": "Nach Status filtern",
+      "filterByPriority": "Nach Priorität filtern"
+    },
+    "stats": {
+      "total": "Tickets insgesamt",
+      "open": "Offen",
+      "pending": "Ausstehend",
+      "closed": "Geschlossen"
+    },
+    "form": {
+      "title": "Titel",
+      "category": "Kategorie",
+      "priority": "Priorität",
+      "description": "Beschreibung",
+      "submit": "Ticket erstellen",
+      "reply": "Antworten",
+      "close": "Ticket schließen",
+      "reopen": "Ticket wieder öffnen"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "dashboard": "Dashboard",
+    "users": "Benutzer",
+    "products": "Produkte",
+    "keys": "Schlüssel",
+    "news": "Nachrichten",
+    "changelogs": "Änderungsprotokoll",
+    "tickets": "Tickets",
+    "settings": "Einstellungen",
+    "logs": "Protokolle",
+    "statistics": "Statistiken",
+    "overview": "Übersicht",
+    "management": "Verwaltung",
+    "userManagement": "Benutzerverwaltung",
+    "productManagement": "Produktverwaltung",
+    "keyManagement": "Schlüsselverwaltung",
+    "newsManagement": "Nachrichtenverwaltung",
+    "ticketManagement": "Ticket-Verwaltung",
+    "systemSettings": "Systemeinstellungen",
+    "adminLogs": "Admin-Protokolle",
+    "loginLogs": "Login-Protokolle",
+    "totalUsers": "Benutzer insgesamt",
+    "totalProducts": "Produkte insgesamt",
+    "totalKeys": "Schlüssel insgesamt",
+    "totalTickets": "Tickets insgesamt",
+    "recentActivity": "Kürzliche Aktivität",
+    "quickActions": "Schnellaktionen",
+    "systemStatus": "Systemstatus",
+    "configurationUpdated": "Konfiguration erfolgreich aktualisiert",
+    "allFieldsRequired": "Alle Felder sind erforderlich",
+    "internalServerError": "Interner Serverfehler",
+    "userNotFound": "Benutzer nicht gefunden",
+    "cannotBanAdmin": "Admin- oder Owner-Benutzer können nicht gesperrt werden",
+    "userBannedSuccessfully": "Benutzer erfolgreich gesperrt",
+    "userUnbannedSuccessfully": "Benutzer erfolgreich entsperrt",
+    "productNotFound": "Produkt nicht gefunden",
+    "productAccessRevoked": "Produktzugriff erfolgreich widerrufen",
+    "onlyOwnersCanChangeAdmin": "Nur Owner können den Admin-Status ändern",
+    "adminPrivilegesGranted": "Admin-Rechte erfolgreich gewährt",
+    "adminPrivilegesRevoked": "Admin-Rechte erfolgreich entzogen"
+  },
+  "users": {
+    "title": "Benutzer",
+    "allUsers": "Alle Benutzer",
+    "activeUsers": "Aktive Benutzer",
+    "adminUsers": "Admin-Benutzer",
+    "userDetails": "Benutzerdetails",
+    "banUser": "Benutzer sperren",
+    "unbanUser": "Benutzer entsperren",
+    "makeAdmin": "Zum Admin machen",
+    "removeAdmin": "Admin entfernen",
+    "revokeAccess": "Zugriff widerrufen",
+    "userStatus": "Benutzerstatus",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "banned": "Gesperrt",
+    "products": "Produkte",
+    "joinDate": "Beitrittsdatum",
+    "lastActivity": "Letzte Aktivität",
+    "actions": "Aktionen",
+    "noUsers": "Keine Benutzer gefunden",
+    "totalUsers": "Benutzer insgesamt",
+    "userCount": "Benutzeranzahl"
+  },
+  "aclogs": {
+    "title": "Anti-Cheat-Protokolle",
+    "noLogs": "Keine Protokolle verfügbar",
+    "logDetails": "Protokoll-Details",
+    "timestamp": "Zeitstempel",
+    "player": "Spieler",
+    "reason": "Grund",
+    "action": "Aktion",
+    "server": "Server"
+  }
+}

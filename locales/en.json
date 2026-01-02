@@ -1,0 +1,689 @@
+{
+  "_info": {
+    "label": "English",
+    "name": "en",
+    "flag": "GB"
+  },
+  "moneyUnit": "$",
+  "header": {
+    "ranks": {
+      "admin": "Administrator",
+      "user": "User"
+    },
+    "user": {
+      "logout": "Log Out"
+    }
+  },
+  "navbar": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "keys": "Keys",
+    "shop": "Shop",
+    "overview": "Overview",
+    "banlist": "Ban List",
+    "playerlist": "Player List",
+    "anticheatlogs": "Anti-Cheat Logs",
+    "config": "Configuration",
+    "update": "Update",
+    "settings": "Settings",
+    "users": "Users",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "refund": "Refund Policy",
+    "Customer": "Customer Area",
+    "changelog": "Changelog",
+    "faq": "FAQ",
+    "browseConfigs": "Browse Configs",
+    "subUserManager": "Sub-User Manager",
+    "accountSettings": "Account Settings",
+    "adminDashboard": "Admin Dashboard",
+    "userAdmin": "User Administration",
+    "ticketManagement": "Ticket Management",
+    "supportTickets": "Support Tickets",
+    "supportInfo": "Support & Info",
+    "legalPolicies": "Legal & Policies",
+    "userManagement": "User Management",
+    "adminPanel": "Admin Panel",
+    "selectProduct": "Select Product...",
+    "categories": {
+      "main": "Main Area",
+      "customer": "Customer Area", 
+      "admin": "Admin Area",
+      "owner": "Owner Area",
+      "support": "Support"
+    }
+  },
+  "login": {
+    "title": "Please log in!",
+    "description": "By logging in, you automatically accept the necessary cookies.",
+    "button": "Log In with Discord",
+    "loginButton": "Login",
+    "registerButton": "Register",
+    "emailPlaceholder": "Email or Username",
+    "passwordPlaceholder": "Password",
+    "usernamePlaceholder": "Username",
+    "emailInputPlaceholder": "Email",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "continueWithDiscord": "Continue with Discord",
+    "orDivider": "OR",
+    "invalidCredentials": "Invalid email/username or password",
+    "registrationError": "Please check your input and try again",
+    "errorOccurred": "An error occurred. Please try again.",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "registrationSuccessful": "Registration successful! Please login.",
+    "registrationFailed": "Registration failed"
+  },
+  "welcome": "Welcome back, @%s!",
+  "pages": {
+    "dashboard": {
+      "title": "Dashboard",
+      "products": "Your Products",
+      "redeemButton": "Redeem Key",
+      "latestNews": "Latest News",
+      "fiveMPort": "FiveM Port",
+      "stats": {
+        "users": "Users (Total)",
+        "bans": "Bans (Total)",
+        "auths": "Authentications (Total)",
+        "logins": "Logins (Total)",
+        "joins": "Joins (Total)", 
+        "screens": "Screenshots (Total)"
+      },
+      "userstats": {
+        "unban": "Unbans (Your)",
+        "bans": "Bans (Your)",
+        "auths": "Authentications (Your)",
+        "logins": "Logins (Your)",
+        "joins": "Joins (Your)",
+        "screens": "Screenshots (Your)"
+      }
+    },
+    "products": {
+      "title": "Product Overview",
+      "products": "Products",
+      "create": "Create Product"
+    },
+    "keys": {
+      "title": "Key Overview",
+      "create": "Create Key",
+      "keys": "Product Keys"
+    },
+    "bans": {
+      "title": "Ban List",
+      "pagetitle": "Ban List Overview"
+    },
+    "player": {
+      "title": "Player List",
+      "pagetitle": "Player List Overview"
+    },
+    "aclogs": {
+      "title": "Anti-Cheat Logs",
+      "pagetitle": "Anti-Cheat Logs Overview"
+    },
+    "overview": {
+      "title": "Overview",
+      "developmentTitle": "Development Status",
+      "serverManagement": {
+        "title": "Server Management",
+        "clearAll": "Clear All",
+        "clearProps": "Clear Props", 
+        "clearVehicles": "Clear Vehicles",
+        "clearPeds": "Clear Peds",
+        "restartServer": "Restart Server",
+        "cancel": "Cancel"
+      }
+    },
+    "shop": {
+      "title": "Anticheat Shop",
+      "description": "Upgrade your protection and experience with our premium solutions. Choose the perfect plan for your needs.",
+      "products": {
+        "oneMonth": {
+          "title": "1 Month License",
+          "price": "$9.99",
+          "duration": "/ month"
+        },
+        "threeMonths": {
+          "title": "3 Months License", 
+          "price": "$24.99",
+          "duration": "/ quarter",
+          "tag": "Most Popular"
+        },
+        "lifetime": {
+          "title": "Lifetime License",
+          "price": "$79.99", 
+          "duration": "one-time"
+        }
+      },
+      "features": {
+        "allFeatures": "Access to all features",
+        "premiumSupport": "Premium support",
+        "regularUpdates": "Regular updates",
+        "lifetimeUpdates": "Lifetime updates", 
+        "discordRole": "Discord role",
+        "fullDocumentation": "Full documentation",
+        "priorityQueue": "Priority queue",
+        "earlyAccess": "Early access to new features"
+      },
+      "purchaseButton": "Purchase Now"
+    }
+  },
+  "tables": {
+    "products": {
+      "id": "#",
+      "name": "Name",
+      "version": "Version",
+      "price": "Price",
+      "ip": "IP",
+      "testIp": "Test IP",
+      "expiry": "Expiry Date",
+      "keyy": "Key",
+      "typ": "Info",
+      "creation": "Creation Date",
+      "actions": "Actions"
+    },
+    "keys": {
+      "id": "#",
+      "key": "Key",
+      "product": "Product",
+      "expires": "Expires in",
+      "creation": "Creation Date",
+      "actions": "Actions"
+    },
+    "bans": {
+      "id": "ID",
+      "name": "Name",
+      "discord": "Discord",
+      "reason": "Reason",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "player": {
+      "id": "ID",
+      "name": "Name",
+      "ping": "Latency",
+      "license": "License",
+      "actions": "Actions",
+      "for": "Details for"
+    },
+    "aclogs": {
+      "id": "ID",
+      "date": "Date",
+      "reason": "Reason"
+    }
+  },
+  "modals": {
+    "redeem": {
+      "title": "Redeem Product Key",
+      "button": "Redeem"
+    },
+    "userProduct": {
+      "title": "Manage Product",
+      "ip": "IP Address",
+      "testIp": "Test IP Address",
+      "info": "If you have any questions, we're available on our Discord server.",
+      "button": "Save"
+    },
+    "deleteProduct": {
+      "title": "Delete Product",
+      "description": "Deleting this product will remove all associated licenses and keys! This action cannot be undone.",
+      "button": "Delete %s (with %s licenses & %s keys)"
+    },
+    "createProduct": {
+      "title": "Create Product",
+      "name": "Name",
+      "price": "Price",
+      "button": "Create"
+    },
+    "createKey": {
+      "expires": "Expires in (days)",
+      "amount": "Quantity",
+      "create": "Create"
+    },
+    "unbanUser": {
+      "title": "Unban Player",
+      "description": "Are you sure you want to unban %s?",
+      "button": "Unban Player"
+    },
+    "screenshot": {
+      "description": "Screenshot of",
+      "button": "Close"
+    },
+    "kick": {
+      "kick": "Kick Player",
+      "description": "Are you sure you want to kick %s?",
+      "reason": "Reason for Kick",
+      "button": "Kick"
+    },
+    "ban": {
+      "ban": "Ban Player",
+      "description": "Are you sure you want to ban %s?",
+      "reason": "Reason for Ban",
+      "button": "Ban"
+    },
+    "clearAll": {
+      "title": "Delete All Data",
+      "description": "Are you sure you want to delete all data? This action cannot be undone.",
+      "button": "Delete All"
+    },
+    "clearProps": {
+      "title": "Delete Properties",
+      "description": "Are you sure you want to delete all properties? This action cannot be undone.",
+      "button": "Delete Properties"
+    },
+    "clearVehicles": {
+      "title": "Delete Vehicles",
+      "description": "Are you sure you want to delete all vehicles? This action cannot be undone.",
+      "button": "Delete Vehicles"
+    },
+    "clearPeds": {
+      "title": "Delete Peds",
+      "description": "Are you sure you want to delete all peds? This action cannot be undone.",
+      "button": "Delete Peds"
+    },
+    "restart": {
+      "title": "Restart Server",
+      "description": "Are you sure you want to restart the server? This action cannot be undone.",
+      "button": "Restart Now"
+    }
+  },
+  "settings": {
+    "title": "User Settings",
+    "email": {
+      "title": "Change Email Address",
+      "current": "Current Email Address",
+      "new": "New Email Address",
+      "newPlaceholder": "new@email.com",
+      "confirmPassword": "Confirm Current Password",
+      "passwordPlaceholder": "Your current password",
+      "updateButton": "Update Email"
+    },
+    "password": {
+      "title": "Change Password",
+      "current": "Current Password",
+      "currentPlaceholder": "Your current password",
+      "new": "New Password",
+      "newPlaceholder": "At least 8 characters",
+      "confirm": "Confirm Password",
+      "confirmPlaceholder": "Repeat new password",
+      "updateButton": "Update Password"
+    },
+    "discord": {
+      "title": "Discord Integration",
+      "connected": "Connected: ",
+      "connectedDescription": "Your Discord account is successfully connected. You can disconnect at any time.",
+      "notConnected": "Not connected",
+      "notConnectedDescription": "Connect your Discord account for additional features. You can find your Discord ID in User Settings under \"Advanced\".",
+      "idLabel": "Discord ID",
+      "idPlaceholder": "e.g. 123456789012345678",
+      "idHelp": "Discord IDs consist of 17-19 digits",
+      "connectButton": "Connect Discord",
+      "updateButton": "Update Discord ID",
+      "disconnectButton": "Disconnect Discord",
+      "disconnectConfirm": "Do you really want to disconnect Discord?"
+    },
+    "dangerZone": {
+      "title": "Danger Zone",
+      "deleteTitle": "Delete Account",
+      "deleteWarning": "This action cannot be undone. All your data, products and settings will be permanently deleted.",
+      "deletePasswordLabel": "Confirm Password",
+      "deletePasswordPlaceholder": "Your current password",
+      "deleteConfirmLabel": "Type \"DELETE\" to confirm",
+      "deleteConfirmPlaceholder": "DELETE",
+      "deleteButton": "Permanently delete account",
+      "deleteConfirmDialog": "FINAL WARNING: Are you absolutely sure? This action CANNOT be undone!"
+    },
+    "alerts": {
+      "emailUpdateSuccess": "Email address successfully updated",
+      "passwordUpdateSuccess": "Password successfully updated",
+      "discordConnectSuccess": "Discord successfully connected",
+      "discordDisconnectSuccess": "Discord connection successfully removed",
+      "accountDeleteSuccess": "Account successfully deleted",
+      "error": "An error occurred. Please try again."
+    },
+    "language": {
+      "title": "Language",
+      "current": "Current Language",
+      "select": "Select Language",
+      "german": "Deutsch",
+      "english": "English",
+      "changeButton": "Change Language"
+    }
+  },
+  "alert": {
+    "copy": "Copy",
+    "close": "Close",
+    "success": "Success!",
+    "error": "An error occurred!",
+    "messages": {
+      "invalidIp": "The IP address is invalid!",
+      "invalidProduct": "The requested product does not exist or does not belong to you.",
+      "expiredProduct": "This product has expired.",
+      "keyInvalid": "The key does not exist.",
+      "keyUsed": "The key has already been redeemed.",
+      "keyRedeemed": "The key has been successfully redeemed.",
+      "productUpdated": "The IP address or port has been successfully updated.",
+      "productNotFound": "The product was not found.",
+      "invalidDiscordId": "Invalid Discord ID. Discord IDs consist of 17-19 digits.",
+      "discordIdAlreadyConnected": "This Discord ID is already connected to another account",
+      "discordIdConnectedSuccessfully": "Discord ID successfully connected",
+      "errorConnectingDiscord": "Error connecting Discord ID",
+      "discordIdDisconnectedSuccessfully": "Discord ID successfully disconnected",
+      "errorDisconnectingDiscord": "Error disconnecting Discord ID"
+    }
+  },
+  "common": {
+    "userIdNotFound": "User ID not found",
+    "licenseNotFound": "License not found",
+    "noData": "No data available",
+    "noPlayer": "No players found",
+    "expired": "Expired",
+    "expiredLicense": "Key Expired",
+    "unset": "Not set",
+    "manage": "Manage",
+    "delete": "Delete",
+    "unban": "Unban",
+    "screen": "Screenshot",
+    "product": "Product",
+    "download": "Download",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "refund": "Refund",
+    "backToHome": "Back to Home"
+  },
+  "policies": {
+    "terms": {
+      "title": "Terms of Service",
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing and using this service, you accept and agree to be bound by the terms and provision of this agreement."
+      },
+      "license": {
+        "title": "2. Use License",
+        "intro": "Permission is granted to temporarily download one copy of the materials (information or software) for personal, non-commercial transitory viewing only.",
+        "grant": "This is the grant of a license, not a transfer of title, and under this license you may not:",
+        "restrictions": {
+          "modify": "modify or copy the materials;",
+          "commercial": "use the materials for any commercial purpose;",
+          "reverse": "attempt to decompile or reverse engineer any software contained in the service;",
+          "copyright": "remove any copyright or other proprietary notations from the materials;"
+        }
+      },
+      "disclaimer": {
+        "title": "3. Disclaimer",
+        "content": "The materials on this service are provided on an 'as is' basis. We make no warranties, expressed or implied, and hereby disclaim and negate all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights."
+      },
+      "limitations": {
+        "title": "4. Limitations",
+        "content": "In no event shall we or our suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on our service, even if we or an authorized representative has been notified orally or in writing of the possibility of such damage."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": {
+        "title": "Introduction",
+        "content": "This Privacy Policy describes how we collect, use, and share information about you when you use our service."
+      },
+      "collection": {
+        "title": "Information We Collect",
+        "content": "We collect information you provide directly to us, such as when you create an account, make a purchase, or contact us for support."
+      },
+      "usage": {
+        "title": "How We Use Your Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services, process transactions, and communicate with you."
+      },
+      "sharing": {
+        "title": "Information Sharing",
+        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy."
+      },
+      "security": {
+        "title": "Data Security",
+        "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+      }
+    },
+    "refund": {
+      "title": "Refund Policy",
+      "general": {
+        "title": "General Policy",
+        "content": "We offer refunds under specific conditions as outlined below. Please read this policy carefully before making a purchase."
+      },
+      "conditions": {
+        "title": "Refund Conditions",
+        "content": "Refunds may be requested within 14 days of purchase if the service does not function as described or if there are technical issues preventing proper usage."
+      },
+      "process": {
+        "title": "Refund Process",
+        "content": "To request a refund, please contact our support team with your order details and the reason for the refund request. We will review each case individually."
+      },
+      "exceptions": {
+        "title": "Exceptions",
+        "content": "Refunds are not available for digital products that have been successfully delivered and are functioning as intended."
+      }
+    }
+  },
+  "landing": {
+    "title": "Anticheat Panel - Secure Gaming for Everyone",
+    "description": "Professional Anticheat Panel for secure gaming servers. Protection against cheats, hacks and unwanted behavior.",
+    "nav": {
+      "brand": "Anticheat Panel",
+      "home": "Home",
+      "features": "Features",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "login": "Login",
+      "dashboard": "Dashboard"
+    },
+    "hero": {
+      "title": "Secure Gaming",
+      "subtitle": "for Everyone",
+      "description": "Professional anti-cheat protection for your gaming servers. Detect and prevent cheating, hacking, and unwanted behavior with our advanced monitoring system.",
+      "getStarted": "Get Started",
+      "learnMore": "Learn More",
+      "watchDemo": "Watch Demo"
+    },
+    "stats": {
+      "users": "Active Users",
+      "bans": "Cheaters Banned",
+      "authentications": "Authentications",
+      "servers": "Protected Servers"
+    },
+    "features": {
+      "title": "Why Choose Our Anticheat?",
+      "subtitle": "Advanced protection features designed for modern gaming",
+      "realtime": {
+        "title": "Real-time Detection",
+        "description": "Instant detection and prevention of cheating attempts with minimal false positives."
+      },
+      "dashboard": {
+        "title": "Advanced Dashboard",
+        "description": "Comprehensive control panel with detailed analytics and monitoring tools."
+      },
+      "api": {
+        "title": "API Integration",
+        "description": "Easy integration with existing server infrastructure through our REST API."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Round-the-clock technical support from our experienced team."
+      },
+      "updates": {
+        "title": "Regular Updates",
+        "description": "Continuous improvements and new features to stay ahead of new threats."
+      },
+      "customizable": {
+        "title": "Fully Customizable",
+        "description": "Flexible configuration options to meet your specific server requirements."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Simple setup process in just a few steps",
+      "step1": {
+        "title": "Create Account",
+        "description": "Sign up for free and get instant access to your dashboard."
+      },
+      "step2": {
+        "title": "Configure Settings",
+        "description": "Customize protection settings according to your server needs."
+      },
+      "step3": {
+        "title": "Deploy Protection",
+        "description": "Install our lightweight client and start protecting your server."
+      }
+    },
+    "pricing": {
+      "title": "Choose Your Plan",
+      "subtitle": "Flexible pricing options for servers of all sizes",
+      "monthly": "Monthly",
+      "annually": "Annually",
+      "save": "Save 20%"
+    },
+    "testimonials": {
+      "title": "What Our Users Say",
+      "subtitle": "Trusted by gaming communities worldwide"
+    },
+    "cta": {
+      "title": "Ready to Secure Your Server?",
+      "subtitle": "Join thousands of server owners who trust our anticheat solution",
+      "button": "Get Started Today"
+    },
+    "footer": {
+      "description": "Professional anticheat solution for secure gaming servers worldwide.",
+      "quickLinks": "Quick Links",
+      "legal": "Legal",
+      "contact": "Contact",
+      "followUs": "Follow Us",
+      "rights": "All rights reserved.",
+      "builtWith": "Built with ❤️ for the gaming community"
+    }
+  },
+  "tickets": {
+    "title": "Support Tickets",
+    "myTickets": "My Tickets",
+    "createTicket": "Create Ticket",
+    "ticketNotFound": "Ticket not found",
+    "noPermission": "No permission for this ticket",
+    "errorLoadingTickets": "Error loading tickets",
+    "errorLoadingPage": "Error loading page",
+    "newTicket": "New Ticket",
+    "ticketDetails": "Ticket Details",
+    "messages": "Messages",
+    "addMessage": "Add Message",
+    "attachments": "Attachments",
+    "status": {
+      "open": "Open",
+      "inProgress": "In Progress",
+      "waitingCustomer": "Waiting for Customer",
+      "closed": "Closed",
+      "resolved": "Resolved"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "filters": {
+      "all": "All",
+      "search": "Search tickets...",
+      "filterByStatus": "Filter by Status",
+      "filterByPriority": "Filter by Priority"
+    },
+    "stats": {
+      "total": "Total Tickets",
+      "open": "Open",
+      "pending": "Pending",
+      "closed": "Closed"
+    },
+    "form": {
+      "title": "Title",
+      "category": "Category",
+      "priority": "Priority",
+      "description": "Description",
+      "submit": "Create Ticket",
+      "reply": "Reply",
+      "close": "Close Ticket",
+      "reopen": "Reopen Ticket"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "products": "Products",
+    "keys": "Keys", 
+    "news": "News",
+    "changelogs": "Changelogs",
+    "tickets": "Tickets",
+    "settings": "Settings",
+    "logs": "Logs",
+    "statistics": "Statistics",
+    "overview": "Overview",
+    "management": "Management",
+    "userManagement": "User Management",
+    "productManagement": "Product Management",
+    "keyManagement": "Key Management",
+    "newsManagement": "News Management",
+    "ticketManagement": "Ticket Management",
+    "systemSettings": "System Settings",
+    "adminLogs": "Admin Logs",
+    "loginLogs": "Login Logs",
+    "totalUsers": "Total Users",
+    "totalProducts": "Total Products",
+    "totalKeys": "Total Keys",
+    "totalTickets": "Total Tickets",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions",
+    "systemStatus": "System Status",
+    "configurationUpdated": "Configuration updated successfully",
+    "allFieldsRequired": "All fields are required",
+    "internalServerError": "Internal Server Error",
+    "userNotFound": "User not found",
+    "cannotBanAdmin": "Cannot ban admin or owner users",
+    "userBannedSuccessfully": "User banned successfully",
+    "userUnbannedSuccessfully": "User unbanned successfully",
+    "productNotFound": "Product not found",
+    "productAccessRevoked": "Product access revoked successfully",
+    "onlyOwnersCanChangeAdmin": "Only owners can change admin status",
+    "adminPrivilegesGranted": "Admin privileges granted successfully",
+    "adminPrivilegesRevoked": "Admin privileges revoked successfully"
+  },
+  "users": {
+    "title": "Users",
+    "allUsers": "All Users",
+    "activeUsers": "Active Users",
+    "adminUsers": "Admin Users",
+    "userDetails": "User Details",
+    "banUser": "Ban User",
+    "unbanUser": "Unban User",
+    "makeAdmin": "Make Admin",
+    "removeAdmin": "Remove Admin",
+    "revokeAccess": "Revoke Access",
+    "userStatus": "User Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "banned": "Banned",
+    "products": "Products",
+    "joinDate": "Join Date",
+    "lastActivity": "Last Activity",
+    "actions": "Actions",
+    "noUsers": "No users found",
+    "totalUsers": "Total Users",
+    "userCount": "User Count"
+  },
+  "aclogs": {
+    "title": "Anti-Cheat Logs",
+    "noLogs": "No logs available",
+    "logDetails": "Log Details",
+    "timestamp": "Timestamp",
+    "player": "Player",
+    "reason": "Reason",
+    "action": "Action",
+    "server": "Server"
+  }
+}

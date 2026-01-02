@@ -1,0 +1,67 @@
+[
+  {
+    "label": "Anticheat",
+    "icon": "mdi mdi-shield-alert",
+    "path": "/config/main"
+  },
+    {
+      "label": "General",
+      "icon": "mdi mdi-tools",
+      "path": "/config/general"
+    },
+    {
+      "label": "Locales",
+      "icon": "mdi mdi-translate",
+      "path": "/config/locales"
+    },
+    {
+      "label": "Webhooks",
+      "icon": "mdi mdi-webhook",
+      "path": "/config/webhooks"
+    },
+    {
+      "label": "Blacklist",
+      "icon": "mdi mdi-block-helper",
+      "path": "/config/blacklist"
+    },
+    {
+      "label": "Weapon",
+      "icon": "mdi mdi-crosshairs",
+      "path": "/config/weapon"
+    },
+    {
+      "label": "Nuke",
+      "icon": "mdi mdi-bomb",
+      "path": "/config/nuke"
+    },
+    {
+      "label": "Godmode",
+      "icon": "mdi mdi-shield-star",
+      "path": "/config/godmode"
+    },
+    {
+      "label": "Injection",
+      "icon": "mdi mdi-code-braces",
+      "path": "/config/injection"
+    },
+    {
+      "label": "Car",
+      "icon": "mdi mdi-car-estate",
+      "path": "/config/car"
+    },
+    {
+      "label": "Events",
+      "icon": "mdi mdi-calendar-star",
+      "path": "/config/events"
+    },
+    {
+      "label": "Fixes",
+      "icon": "mdi mdi-wrench",
+      "path": "/config/fix"
+    },
+    {
+      "label": "Go back to Dashboard",
+      "icon": "mdi mdi-home",
+      "path": "/"
+    }
+  ]

@@ -1,0 +1,1611 @@
+{
+  "AdminMenu": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Enable",
+        "type": "bool",
+        "value": false,
+        "comment": "Activates or deactivates the Admin menu"
+      },
+      {
+        "name": "Key",
+        "type": "string",
+        "value": "F11",
+        "placeholder": "",
+        "comment": "Button to open the Admin menu"
+      }
+    ]
+  },
+  "BlacklistedKey": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Ban",
+        "type": "bool",
+        "value": false,
+        "comment": "Activates or deactivates the Blacklist Keys"
+      },
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "121, 344, 10, 37",
+        "placeholder": "",
+        "comment": "Buttons to that will screenshoted"
+      }
+    ]
+  },
+  "AceBypass": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Ace",
+        "type": "longstring",
+        "value": "ES.Bypass",
+        "placeholder": "",
+        "comment": "Ace name that dont get banned"
+      },
+      {
+        "name": "AdminMenu",
+        "type": "longstring",
+        "value": "ES.Menu",
+        "placeholder": "",
+        "comment": "Ace name for users that can Open the Admin Menu"
+      }
+    ]
+  },
+  "Debug": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false,
+        "comment": "Turn this on when you want to test the anticheat"
+      }
+    ]
+  },
+  "AntiVPN": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true,
+        "comment": "Players with VPN can not join the server"
+      }
+    ]
+  },
+  "HeartbeatSystem": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true,
+        "comment": "Detect if someone stop the Anticheat"
+      }
+    ]
+  },
+  "UseESXLegacy": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true,
+        "comment": "Set it to false if not having getSharedObject export"
+      }
+    ]
+  },
+  "UseQBCore": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true,
+        "comment": "Set it to false if not using QBCore"
+      }
+    ]
+  },
+  "AntiESX": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "EnableIPLogs": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true,
+        "comment": "Enables IPs in your Logs"
+      }
+    ]
+  },
+  "DiscordBypass": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Ids",
+        "type": "string",
+        "value": "",
+        "placeholder": "",
+        "comment": "This Discord IDs dont get Banned"
+      }
+    ]
+  },
+  "ShardObjectESX": {
+    "Page": "main",
+    "Settings": [
+      {
+        "name": "Message",
+        "type": "string",
+        "value": "esx:getSharedObject",
+        "placeholder": "",
+        "comment": "Replace this to your ESX Trigger"
+      }
+    ]
+  },
+  "Main": {
+    "Page": "webhooks",
+    "Settings": [
+      {
+        "name": "Webhook",
+        "type": "longstring",
+        "value": "",
+        "placeholder": "",
+        "comment": "Discord Webhook for Main Logs"
+      }
+    ]
+  },
+  "Ban": {
+    "Page": "webhooks",
+    "Settings": [
+      {
+        "name": "Webhook",
+        "type": "longstring",
+        "value": "",
+        "placeholder": "",
+        "comment": "Discord Webhook for Ban Logs"
+      }
+    ]
+  },
+  "Screenshot": {
+    "Page": "webhooks",
+    "Settings": [
+      {
+        "name": "Webhook",
+        "type": "longstring",
+        "value": "",
+        "placeholder": "",
+        "comment": "Discord Webhook for Screenshot Logs"
+      }
+    ]
+  },
+  "Explosion": {
+    "Page": "webhooks",
+    "Settings": [
+      {
+        "name": "Webhook",
+        "type": "longstring",
+        "value": "",
+        "placeholder": "",
+        "comment": "Discord Webhook for Explosions Logs"
+      }
+    ]
+  },
+  "Connect": {
+    "Page": "webhooks",
+    "Settings": [
+      {
+        "name": "Webhook",
+        "type": "longstring",
+        "value": "",
+        "placeholder": "",
+        "comment": "Discord Webhook for Player Connect Logs"
+      }
+    ]
+  },
+  "Disconnect": {
+    "Page": "webhooks",
+    "Settings": [
+      {
+        "name": "Webhook",
+        "type": "longstring",
+        "value": "",
+        "placeholder": "",
+        "comment": "Discord Webhook for Player Disconnect Logs"
+      }
+    ]
+  },
+  "PublicBan": {
+    "Page": "webhooks",
+    "Settings": [
+      {
+        "name": "Webhook",
+        "type": "longstring",
+        "value": "",
+        "placeholder": "",
+        "comment": "Discord Webhook for Public Ban Logs"
+      }
+    ]
+  },
+  "Admin": {
+    "Page": "webhooks",
+    "Settings": [
+      {
+        "name": "Webhook",
+        "type": "longstring",
+        "value": "",
+        "placeholder": "",
+        "comment": "Discord Webhook for Admin Menu/Commands Logs"
+      }
+    ]
+  },
+  "Banned": {
+    "Page": "locales",
+    "Settings": [
+      {
+        "name": "Message",
+        "type": "longstring",
+        "value": "You have been banned by Elfbar-Security",
+        "placeholder": "",
+        "comment": "Displayed to banned players on join"
+      }
+    ]
+  },
+  "Kicked": {
+    "Page": "locales",
+    "Settings": [
+      {
+        "name": "Message",
+        "type": "longstring",
+        "value": "You have been kicked by Elfbar-Security",
+        "placeholder": "",
+        "comment": "Displayed to players that get kicked"
+      }
+    ]
+  },
+  "Discord": {
+    "Page": "locales",
+    "Settings": [
+      {
+        "name": "Invite",
+        "type": "text",
+        "value": "https://discord.gg/",
+        "placeholder": "",
+        "comment": "Support Server Invite Link"
+      }
+    ]
+  },
+  "System": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "Messages": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "Vehicles": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "Names": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "Weapons": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "BlacklistedNames": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "administrator, admin",
+        "placeholder": ""
+      }
+    ]
+  },
+  "BlackListedMessage": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "Bombay Menu, ariesMenu, cheat, hack, hacks, BrutanPremium, TiagoMenu, Dopamine",
+        "placeholder": ""
+      }
+    ]
+  },
+  "BlacklistedWeapons": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "WEAPON_HAMMER,WEAPON_SAWNOFFSHOTGUN,WEAPON_BULLPUPSHOTGUN,WEAPON_GRENADELAUNCHER,WEAPON_GRENADELAUNCHER_SMOKE,WEAPON_RPG,WEAPON_STINGER,WEAPON_MINIGUN,WEAPON_GRENADE,WEAPON_BALL,WEAPON_BOTTLE,WEAPON_HEAVYSHOTGUN,WEAPON_GARBAGEBAG,WEAPON_RAILGUN,WEAPON_RAILPISTOL,WEAPON_RAILGUN,WEAPON_RAYPISTOL,WEAPON_RAYCARBINE,WEAPON_RAYMINIGUN,WEAPON_DIGISCANNER,WEAPON_SPECIALCARBINE_MK2,WEAPON_BULLPUPRIFLE_MK2,WEAPON_PUMPSHOTGUN_MK2,WEAPON_MARKSMANRIFLE_MK2,WEAPON_COMPACTLAUNCHER,WEAPON_SNSPISTOL_MK2,WEAPON_REVOLVER_MK2,WEAPON_FIREWORK,WEAPON_HOMINGLAUNCHER,WEAPON_SMG_MK2",
+        "placeholder": ""
+      }
+    ]
+  },
+  "BlacklistedVehicles": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "VOLATOL, CARGOPLANE, MOLOTOK, TULA, ROGUE, BOMBUSHKA, PYRO, LAZER, NOKOTA, MOGUL, STARLING, HYDRA, HOWARD, Avenger, STRIKEFORCE, CERBERUS, CERBERUS2, CERBERUS3, valkyrie2, valkyrie, savage, hunter, buzzard, annihilator, akula, khanjali, thruster, scarab3, scarab2, scarab, RHINO, chernobog, barrage, apc, trailersmall2, HALFTRACK, CUTTER, boxville5, technical3, technical2, technical, monster5, monster4, monster3, insurgent, insurgent2, insurgent3, menacer, nightshark, caracara, brutus, brutus2, brutus3, bruiser, bruiser2, bruiser3, oppressor, oppressor2, tampa3, ruiner2, limo2, viseris, stromberg, zr380, zr3802, zr3803, comet4, vigilante, scramjet, voltic2, deluxo, ARDENT, speedo4, schafter5, schafter6, dominator4, dominator5, dominator6, imperator, imperator2, imperator3, impaler2, impaler3, impaler4, titan, kuruma2, phantom2, hauler2, barracks, barracks2, barracks3, dune2, dune3, dune4, dune5, rcbandito, issi4, issi5, issi6, cognoscenti2, cog552, xls2, baller5, baller6, slamvan4, slamvan5, slamvan6, armytanker, bus, bulldozer, airbus",
+        "placeholder": ""
+      }
+    ]
+  },
+  "BlacklistedPeds": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "",
+        "placeholder": ""
+      }
+    ]
+  },
+  "BlacklistedExplosion": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "0, 1, 2, 3, 4, 5, 6, 12, 16, 19, 26, 29, 31, 32, 33, 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82",
+        "placeholder": ""
+      }
+    ]
+  },
+  "Explosions": {
+    "Page": "blacklist",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      },
+      {
+        "name": "Ban",
+        "type": "bool",
+        "value": true
+      },
+      {
+        "name": "Kick",
+        "type": "bool",
+        "value": false
+      },
+      {
+        "name": "Distance",
+        "type": "number",
+        "value": "nil",
+        "placeholder": ""
+      }
+    ]
+  },
+  "Weapon": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiGiveWeapon": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiRemoveWeapon": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiSafeWeapon": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiAimbotLogging": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiAimlock": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiExecutorTaze": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiMassDamage": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiNoReload": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiRageBot": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiWeaponPickup": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiAIFolder": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiInfiniteAmmo": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiWeaponRangeModifier": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiDamageModifier": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiDamageChanger": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiExplosionBullet": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiGiveSafeWeapon": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiNoRecoil": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiWeaponAccuracy": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiNoWeaponRangeLimit": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "antiSpoofedShoot": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiGiveWeaponESX": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      },
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "WEAPON_DAGGER, WEAPON_BAT, WEAPON_BOTTLE, WEAPON_CROWBAR, WEAPON_FLASHLIGHT, WEAPON_GOLFCLUB, WEAPON_HAMMER, WEAPON_HATCHET, WEAPON_KNUCKLE, WEAPON_KNIFE, WEAPON_MACHETE, WEAPON_SWITCHBLADE, WEAPON_NIGHTSTICK, WEAPON_WRENCH, WEAPON_BATTLEAXE, WEAPON_POOLCUE, WEAPON_STONE_HATCHET, WEAPON_PISTOL, WEAPON_PISTOL_MK2, WEAPON_COMBATPISTOL, WEAPON_APPISTOL, WEAPON_STUNGUN, WEAPON_PISTOL50,WEAPON_SNSPISTOL, WEAPON_SNSPISTOL_MK2, WEAPON_HEAVYPISTOL, WEAPON_VINTAGEPISTOL, WEAPON_FLAREGUN, WEAPON_MARKSMANPISTOL, WEAPON_REVOLVER, WEAPON_REVOLVER_MK2, WEAPON_DOUBLEACTION, WEAPON_RAYPISTOL,WEAPON_CERAMICPISTOL, WEAPON_NAVYREVOLVER, WEAPON_MICROSMG, WEAPON_SMG, WEAPON_SMG_MK2, WEAPON_ASSAULTSMG, WEAPON_COMBATPDW, WEAPON_MACHINEPISTOL, WEAPON_MINISMG, WEAPON_RAYCARBINE, WEAPON_PUMPSHOTGUN,WEAPON_PUMPSHOTGUN_MK2, WEAPON_SAWNOFFSHOTGUN, WEAPON_ASSAULTSHOTGUN, WEAPON_BULLPUPSHOTGUN, WEAPON_MUSKET, WEAPON_HEAVYSHOTGUN, WEAPON_DBSHOTGUN, WEAPON_AUTOSHOTGUN, WEAPON_ASSAULTRIFLE, WEAPON_ASSAULTRIFLE_MK2,WEAPON_CARBINERIFLE, WEAPON_CARBINERIFLE_MK2, WEAPON_ADVANCEDRIFLE, WEAPON_SPECIALCARBINE, WEAPON_SPECIALCARBINE_MK2, WEAPON_BULLPUPRIFLE, WEAPON_BULLPUPRIFLE_MK2, WEAPON_COMPACTRIFLE, WEAPON_MG, WEAPON_COMBATMG,WEAPON_COMBATMG_MK2, WEAPON_GUSENBERG, WEAPON_SNIPERRIFLE, WEAPON_HEAVYSNIPER, WEAPON_HEAVYSNIPER_MK2, WEAPON_MARKSMANRIFLE, WEAPON_MARKSMANRIFLE_MK2, WEAPON_RPG, WEAPON_GRENADELAUNCHER, WEAPON_GRENADELAUNCHER_SMOKE,WEAPON_MINIGUN, WEAPON_FIREWORK, WEAPON_RAILGUN, WEAPON_HOMINGLAUNCHER, WEAPON_COMPACTLAUNCHER, WEAPON_RAYMINIGUN, WEAPON_GRENADE, WEAPON_BZGAS, WEAPON_SMOKEGRENADE, WEAPON_FLARE, WEAPON_MOLOTOV, WEAPON_STICKYBOMB,WEAPON_PROXMINE, WEAPON_SNOWBALL, WEAPON_PIPEBOMB, WEAPON_BALL, WEAPON_FIREEXTINGUISHER, WEAPON_HAZARDCAN",
+        "placeholder": ""
+      }
+    ]
+  },
+  "AmmoCheck": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "MaxAmmo": {
+    "Page": "weapon",
+    "Settings": [
+      {
+        "name": "Value",
+        "type": "number",
+        "value": "300",
+        "placeholder": ""
+      }
+    ]
+  },
+  "AntiGodmode": {
+    "Page": "godmode",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiSemiGodmode": {
+    "Page": "godmode",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "MaxHealthCheck": {
+    "Page": "godmode",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "MaxHealth": {
+    "Page": "godmode",
+    "Settings": [
+      {
+        "name": "Value",
+        "type": "number",
+        "value": "200",
+        "placeholder": ""
+      }
+    ]
+  },
+  "AntiEulenGodMode": {
+    "Page": "godmode",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiEntityProofGodmode": {
+    "Page": "godmode",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "Nuke": {
+    "Page": "nuke",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "Delete": {
+    "Page": "nuke",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "VehicleClearNuke": {
+    "Page": "nuke",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "ObjectClearNuke": {
+    "Page": "nuke",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "PedClearNuke": {
+    "Page": "nuke",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiRapePlayer": {
+    "Page": "nuke",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "ParticlesLimit": {
+    "Page": "nuke",
+    "Settings": [
+      {
+        "name": "Value",
+        "type": "number",
+        "value": "5",
+        "placeholder": ""
+      }
+    ]
+  },
+  "MaxVehiclesPerUser": {
+    "Page": "nuke",
+    "Settings": [
+      {
+        "name": "Value",
+        "type": "number",
+        "value": "5",
+        "placeholder": ""
+      }
+    ]
+  },
+  "MaxPedsPerUser": {
+    "Page": "nuke",
+    "Settings": [
+      {
+        "name": "Value",
+        "type": "number",
+        "value": "5",
+        "placeholder": ""
+      }
+    ]
+  },
+  "AntiCarFly": {
+    "Page": "car",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "VehicleShopCoords": {
+    "Page": "car",
+    "Settings": [
+      {
+        "name": "Coords",
+        "type": "longstring",
+        "value": "vector3(-47.5, -1097.2, 25.4), vector3(456.8945,-1020.8922, 28.2909)",
+        "placeholder": ""
+      }
+    ]
+  },
+  "AntiSpeedModifierVehicle": {
+    "Page": "car",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiSafeVehicleSpawn": {
+    "Page": "car",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiTeslaEulen": {
+    "Page": "car",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiHornBoost": {
+    "Page": "car",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiCarThrow": {
+    "Page": "car",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiBulletprofTires": {
+    "Page": "car",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiRepair": {
+    "Page": "car",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiRainbowVehicle": {
+    "Page": "car",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiFuelHack": {
+    "Page": "car",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "Injection": {
+    "Page": "injection",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiInjection": {
+    "Page": "injection",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiInjectionv2": {
+    "Page": "injection",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiInjectionV3": {
+    "Page": "injection",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiExecutor": {
+    "Page": "injection",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "NuiDevtools": {
+    "Page": "injection",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "Ai": {
+    "Page": "injection",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiRedEngine": {
+    "Page": "injection",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiRedEnginePremium": {
+    "Page": "injection",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiFallout": {
+    "Page": "injection",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "PlayerCheck": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiSpectate": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiFreecam": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiVDM": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiArmor": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiNightVision": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiBiggerHitbox": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiThermalVision": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiHitBoxAi": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiFastrun": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiInvisible": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiTeleport": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "TeleportDistance": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Distance",
+        "type": "number",
+        "value": "150",
+        "placeholder": ""
+      }
+    ]
+  },
+  "AntiNoClip": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiTinyPed": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiTPVehicleToPlayer": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiTPPedsAbovePlayer": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiTPPedsToPlayer": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiTpToWaypoint": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "Solosession": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiAntiHeadshot": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiEulenFreecamAndNoclip": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiLuaFreeze": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiAutoLoot": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiSpinBot": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiInfiniteStamina": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiSuperJump": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiSuperjumpV2": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiExploit": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "ClearPedTask": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiInvincible": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "Game": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "DeleteBrokenCars": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiLicenseClears": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiStopper": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiStarter": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiBypassAFK": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiPlayerBlips": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": false
+      }
+    ]
+  },
+  "AntiForceFall": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiParticles": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiVehicleSpawn": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiPropSpawn": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiPedSpawn": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiChatSpam": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "ChatTime": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Time",
+        "type": "number",
+        "value": "7000",
+        "placeholder": ""
+      }
+    ]
+  },
+  "MessagesLimit": {
+    "Page": "general",
+    "Settings": [
+      {
+        "name": "Limit",
+        "type": "number",
+        "value": "7",
+        "placeholder": ""
+      }
+    ]
+  },
+  "DisableFreecamWhileDead": {
+    "Page": "fix",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "AntiSpawnSystemFix": {
+    "Page": "fix",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "MulticharCoords": {
+    "Page": "fix",
+    "Settings": [
+      {
+        "name": "Coords",
+        "type": "longstring",
+        "value": "vector3(-284.2858,562.463, 173.8)",
+        "placeholder": ""
+      }
+    ]
+  },
+  "AntiTriggerSpam": {
+    "Page": "events",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "MaxValuedEvents": {
+    "Page": "events",
+    "Settings": [
+      {
+        "name": "Enabled",
+        "type": "bool",
+        "value": true
+      }
+    ]
+  },
+  "BlacklistedEvent": {
+    "Page": "events",
+    "Settings": [
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "AdminMDFWMenu:giveCash, redst0nia:checking, hentailover:xdlol, antilynx8:anticheat, antilynxr6:detection, antilynx8r4a:anticheat, antilynxr4:detect, ynx8:anticheat, lynx8:anticheat, adminmenu:allowall, h:xd, HCheat:TempDisableDetection, FAC:EzExec, lester:vendita, bringplayertome",
+        "placeholder": ""
+      }
+    ]
+  },
+  "SecuredEvent": {
+    "Page": "events",
+    "Settings": [
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "esx_ambulancejob:revive, esx_policejob:handcuff, esx:spawnVehicle, esx_drugs:processCannabis",
+        "placeholder": ""
+      }
+    ]
+  },
+  "MaxValueEvents": {
+    "Page": "events",
+    "Settings": [
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "esx_garbagejob:pay:1000, esx_pizza:pay:1000, esx_ranger:pay:1000, esx_truckerjob:pay:1000, esx_slotmachine:sv:2:1000, AdminMenu:giveBank:1000, AdminMenu:giveCash:1000, LegacyFuel:PayFuel:1000, fuel:pay:1000, esx_society:billing:100000",
+        "placeholder": ""
+      }
+    ]
+  },
+  "MaxLimitEvents": {
+    "Page": "events",
+    "Settings": [
+      {
+        "name": "List",
+        "type": "longstring",
+        "value": "esx-qalle-hunting:reward:3, _chat:messageEntered3:2, gcPhone:_internalAddMessage:4, gcPhone:tchat_channel:4, lester:vendita:20, esx:confiscatePlayerItem:4, esx_vehicleshop:setVehicleOwned:4, LegacyFuel:PayFuel:4",
+        "placeholder": ""
+      }
+    ]
+  }
+}
